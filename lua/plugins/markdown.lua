@@ -2,7 +2,8 @@
 
 -- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
--- install with yarn or npm
+-- WARN: you should install yarn first
+-- If use 'MarkdownPreview' no effect; then reinstall this extension
 local MarkdownPreview = {
     'iamcco/markdown-preview.nvim',
     cmd = { 'MarkdownPreviewToggle', 'MarkdownPreview', 'MarkdownPreviewStop' },

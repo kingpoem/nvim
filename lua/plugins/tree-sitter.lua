@@ -44,6 +44,7 @@ local TreeSitter = {
             -- Automatically install missing parsers when entering buffer
             -- WARN: set to false if you don't have `tree-sitter` CLI installed locally
             -- on MacOS: brew install tree-sitter-cli
+            -- on Arch: paru tree-sitter-cli
             auto_install = true,
 
             -- List of parsers to ignore installing (or "all")
