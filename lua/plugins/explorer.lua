@@ -19,7 +19,7 @@ local NeoTree = {
             enable_git_status = true,
             enable_diagnostics = true,
 
-            sources = { 'filesystem', 'buffers', 'git_status' },
+            sources = { 'filesystem', 'buffers'},
 
             source_selector = {
                 winbar = true,
@@ -29,7 +29,6 @@ local NeoTree = {
                 sources = {
                     { source = 'filesystem', display_name = ' 󰉓 Files' },
                     { source = 'buffers', display_name = ' 󰈙 Buf' },
-                    { source = 'git_status', display_name = '󰊢 Git ' },
                 },
             },
 
@@ -71,12 +70,6 @@ local NeoTree = {
                                     zindex = 40,
                                     overlap = true,
                                 },
-                                {
-                                    'git_status',
-                                    align = 'right',
-                                    zindex = 40,
-                                    overlap = true,
-                                },
                             },
                         },
                     },
@@ -90,19 +83,6 @@ local NeoTree = {
                     folder_empty = '',
                     default = '',
                     highlight = 'NeoTreeFileIcon',
-                },
-                git_status = {
-                    symbols = {
-                        added = '',
-                        deleted = '',
-                        modified = '',
-                        renamed = '➜',
-                        untracked = '★',
-                        ignored = '◌',
-                        unstaged = '✗',
-                        staged = '✓',
-                        conflict = '',
-                    },
                 },
 
                 diagnostics = {
