@@ -11,3 +11,4 @@
     - `gl` = `<Leader>ld`
     - `<Leader>c` = `<Leader>bc`
     - `l` = `Enter` (in neo-tree)
+- 在 neo-tree 中，如果是 pdf,doc,docx,png,jpg,jpeg,webp 等格式，则使用系统默认打开方式打开
