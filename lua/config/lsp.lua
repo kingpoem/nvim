@@ -105,15 +105,15 @@ end
 
 function LspConfig.apply()
     local lsp_list = {
-        'lua_ls',
         'clangd',
-        'rust_analyzer',
-        'pyright',
+        'dartls',
+        'lua_ls',
         'neocmake',
         'gopls',
         'jdtls',
         'tinymist',
-        -- 'clice',
+        'pyright',
+        'rust_analyzer',
     }
 
     for _, name in ipairs(lsp_list) do

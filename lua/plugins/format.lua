@@ -10,16 +10,17 @@ local CodeFormatter = {
     config = function()
         require('conform').setup {
             formatters_by_ft = {
-                lua = { 'stylua' },
-                cpp = { 'clang-format' },
+                astro = { 'prettier' },
                 c = { 'clang-format' },
+                cpp = { 'clang-format' },
+                css = { 'prettier' },
+                dart = { 'dart_format' }, -- dart use 2 spaces force
+                html = { 'prettier' },
+                javascript = { 'prettier' },
                 json = { 'prettier' },
                 jsonc = { 'prettier' },
-                html = { 'prettier' },
-                css = { 'prettier' },
-                astro = { 'prettier' },
+                lua = { 'stylua' },
                 typescript = { 'prettier' },
-                javascript = { 'prettier' },
             },
         }
 
