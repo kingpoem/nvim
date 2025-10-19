@@ -6,6 +6,7 @@
     - 详情见[reddit](https://www.reddit.com/r/dartlang/comments/ilhr3i/why_two_spaces_instead_of_four/)
     - dartls 不会被 mason 管理
     - 不添加 flutter-tools.nvim 以保持插件精简
+- 增加 swift lsp(only mac)
 - 增加 Lazygit，抛弃 neo-tree 中的 git
 - 增加习惯性键位 
     - `gl` = `<Leader>ld`

@@ -20,6 +20,7 @@ local CodeFormatter = {
                 json = { 'prettier' },
                 jsonc = { 'prettier' },
                 lua = { 'stylua' },
+                swift = { 'swift-format'},
                 typescript = { 'prettier' },
             },
         }

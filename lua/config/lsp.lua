@@ -114,6 +114,7 @@ function LspConfig.apply()
         'tinymist',
         'pyright',
         'rust_analyzer',
+        'swiftls',
     }
 
     for _, name in ipairs(lsp_list) do
