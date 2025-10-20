@@ -50,6 +50,7 @@ local NeoTree = {
                             epub = true, mobi = true,
                             zip = true, rar = true, tar = true, gz = true,
                             ttf = true, otf = true, woff = true, woff2 = true,
+                            ico = true, icns = true,
                         }
                         -- stylua: ignore end
 
