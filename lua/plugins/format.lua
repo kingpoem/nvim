@@ -22,6 +22,7 @@ local CodeFormatter = {
                 lua = { 'stylua' },
                 swift = { 'swift-format'},
                 typescript = { 'prettier' },
+                xml = { 'xmllint' },
             },
         }
 

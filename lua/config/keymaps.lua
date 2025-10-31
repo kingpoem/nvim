@@ -120,12 +120,6 @@ function KeyMaps.apply()
     )
     vim.keymap.set(
         'n',
-        '<Leader>lg',
-        select('telescope.builtin', 'git_commits'),
-        { desc = 'Search Git Commits', noremap = true, silent = true }
-    )
-    vim.keymap.set(
-        'n',
         '<Leader>lD',
         select('telescope.builtin', 'diagnostics'),
         { desc = 'Search diagnostics', noremap = true, silent = true }
