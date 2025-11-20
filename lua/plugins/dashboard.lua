@@ -130,12 +130,7 @@ local Dashboard = {
         }
 
         -- NOTE: lua index from `1`, not `0`
-        if vim.env.NVIM_DASHBOARD_ART_NAME then
-            dashboard.section.header.val = logos[vim.env.NVIM_DASHBOARD_ART_NAME]
-        else
-            dashboard.section.header.val = logos['Ayanami Rei']
-        end
-
+        dashboard.section.header.val = logos['Default']
         dashboard.section.header.opts = {
             position = 'center',
             hl = 'Function',
